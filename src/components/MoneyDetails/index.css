@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.money-list {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  width: 80%;
+  margin: 20px;
+}
+
+.balance-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #84cc16;
+  border-radius: 8px;
+  background-color: #ecfccb;
+  height: 120px;
+  width: 300px;
+  margin-right: 40px;
+}
+
+.your-money {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.money {
+  color: #475569;
+  font-size: 22px;
+  font-weight: bold;
+
+  padding-left: 5px;
+}
+
+.transaction-img {
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.income-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #06b6d4;
+  border-radius: 8px;
+  background-color: #cffafe;
+  height: 120px;
+  width: 300px;
+  margin-right: 50px;
+}
+
+.expenses-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #7c3aed;
+  border-radius: 8px;
+  background-color: #ede9fe;
+  height: 120px;
+  width: 300px;
+  margin-right: 50px;
+}

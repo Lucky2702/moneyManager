@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.transaction-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-text {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.delete-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.delete-img {
+  height: 25px;
+  width: 25px;
+}
